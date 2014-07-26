@@ -84,3 +84,163 @@ table,th,td
 </body>
 
 </html>
+
+<html lang="en">
+  <head>
+    <title>Test</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-table.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="logo"><a href="index.html">Ana Ghenciu</a></h1>
+        <nav>
+          <ul>
+            <li class="selected"><a href="#">Table</a></li>
+            <li><a href="form_1.html">Form 1</a></li>
+            <li><a href="form_2.html">Form 2</a></li>
+            <li><a href="form_3.html">Form 3</a></li>
+            <li><a href="form_4.html">Form 4</a></li>
+            <li><a href="form_5.html">Form 5</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <table>
+          <thead>
+            <tr class="search-bar">
+              <td colspan="4">
+                <form action="#" method="GET">
+                  <p>
+                    <label>
+                      Show
+                      <select name="Entries">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10" selected>10</option>
+                      </select>
+                      entries
+                    </label>
+                  </p>
+                  <p>
+                    <label for="search">Search:</label>
+                    <input type="search" id="search">
+                  </p>
+                </form>
+              </td>
+            </tr>   
+            <tr>
+              <th></th>
+              <th>
+                Company name
+                <i class="fa fa-sort"></i>
+              </th>
+              <th>
+                Address
+                <i class="fa fa-sort"></i>
+              </th>
+              <th>
+                Town
+                <i class="fa fa-sort"></i>
+              </th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td colspan="3">Showing 1 to 6 of 6 entries</td>
+              <td>
+                <a href="#"><i class="fa fa-arrow-circle-left"></i></a>
+                <a href="#"><i class="fa fa-arrow-circle-right"></i></a>
+              </td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td class="options"><a href="#" class="show-button">+</a></td>
+              <td>Emkay Entertainments</td>
+              <td>Nobel House, Regent Centre</td>
+              <td>Lothian</td>
+            </tr>
+            <tr>
+              <td class="options"><a href="#" class="show-button">+</a></td>
+              <td>The Empire</td>
+              <td>Milton Keynes Leisure Plaza</td>
+              <td>Buckinghamshire</td>
+            </tr>
+            <tr>
+              <td class="options"><a href="#" class="hide-button">-</a></td>
+              <td>Asadul Ltd</td>
+              <td>Hophouse</td>
+              <td>Essex</td>
+            </tr>
+            <tr class="more">
+              <td colspan="4">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Employee</th>
+                      <th>Position</th>
+                      <th>Phone</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mike Payne</td>
+                      <td>Sales Representative</td>
+                      <td>+358 53 4220788</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr>
+                      <td>Davis, Constance</td>
+                      <td>Cook/Baker</td>
+                      <td>+358 53 4339340</td>
+                      <td>constancei@ibm.com</td>
+                    </tr>
+                    <tr>
+                      <td>DeGroat, Jessica</td>
+                      <td>5th Grade</td>
+                      <td>+377 98 93404544</td>
+                      <td>N/A</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="options"><a href="#" class="show-button">+</a></td>
+              <td>Ashley Mark Publishing Company</td>
+              <td>1-2 Vance Court</td>
+              <td>Tyne &amp; Wear</td>
+            </tr>
+            <tr>
+              <td class="options"><a href="#" class="show-button">+</a></td>
+              <td>MuchMoreMusic Studios</td>
+              <td>Unit 29</td>
+              <td>London</td>
+            </tr>
+            <tr>
+              <td class="options"><a href="#" class="show-button">+</a></td>
+              <td>Audio Records Studios</td>
+              <td>Oxford Street</td>
+              <td>London</td>
+            </tr>
+          </tbody>
+        </table>  
+      </div> <!-- end content -->
+      <footer>
+        <p>&copy; 2014 Ana Ghenciu</p>
+      </footer>
+    </div> <!-- end wrapper -->
+  </body> 
+</html>
